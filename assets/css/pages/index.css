@@ -1,0 +1,5 @@
+/* Arquivos Globais de Estilo */
+@import '../global/global.css';
+
+/* Arquivos de estilo por Seção */
+@import './partials/section-topo.css';
