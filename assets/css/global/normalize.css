@@ -1,10 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    border: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Roboto", Sans-serif;
 }
 body {
-    width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
+}
+section {
+  height: 130vh;
+}
+
+/* Responsivo Global */
+@media screen and (max-width: 1000px) {
+  section {
+    padding: 0 10px;
+  }
 }

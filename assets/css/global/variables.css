@@ -1,6 +1,9 @@
 :root {
-    --cor-branco: #fff;
-    --cor-preto: #111111;
-    --cor-azul: #242f49;
-    --cor-vermelho: #B51A2B;
+  --cor-branco: #fff;
+  --cor-preto: #080a2d;
+  /* --cor-preto: #112a33; */
+  --cor-azul: #0a62a2;
+  --cor-vermelho: #ff3841;
+  --cor-amarelo: #ffe430;
+  --cor-bege: #fffbc0;
 }
