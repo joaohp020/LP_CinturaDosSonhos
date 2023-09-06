@@ -11,12 +11,12 @@ body {
   overflow-x: hidden;
 }
 section {
-  height: 130vh;
+  height: 100vh;
 }
 
 /* Responsivo Global */
 @media screen and (max-width: 1000px) {
   section {
-    padding: 0 10px;
+    padding: 0 30px;
   }
 }

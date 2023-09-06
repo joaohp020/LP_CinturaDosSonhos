@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--cor-preto);
+  background-color: var(--cor-azul-escuro);
+  height: 130vh;
 }
 .titulo-topo {
   align-items: center;
@@ -21,7 +22,9 @@ h1 {
   color: var(--cor-branco);
   font-size: 1.1rem;
   opacity: 0.7;
-  margin: 1.5rem 0;
+  width: 100%;
+  max-width: 58rem;
+  margin: 1.5rem 0 1rem 1rem;
 }
 .titulo-topo h2 {
   color: var(--cor-bege);
@@ -56,6 +59,9 @@ h1 {
 
 /* Responsivo */
 @media screen and (max-width: 1000px) {
+  .topo {
+    height: 100vh;
+  }
   h1 {
     font-size: 2rem;
   }

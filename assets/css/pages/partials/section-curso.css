@@ -1,0 +1,91 @@
+.curso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-preto);
+}
+.curso h3 {
+  color: var(--cor-branco);
+  width: 100%;
+  max-width: 40rem;
+  text-align: center;
+}
+.curso-box {
+  margin: 3rem 0;
+}
+.case {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+.case i {
+  font-size: 1.5rem;
+}
+.case p {
+  font-size: 1.2rem;
+  color: var(--cor-branco);
+  margin: 0 0 0 1rem;
+}
+.bonus {
+  width: 100%;
+  max-width: 48rem;
+}
+.bonus h4 {
+  color: var(--cor-branco);
+  background-color: var(--cor-azul);
+  padding: 15px;
+  font-weight: 700;
+  margin: 0 0 2rem 0;
+}
+.bonus p {
+  color: var(--cor-branco);
+  text-align: center;
+}
+.curso a {
+  background-color: var(--cor-vermelho);
+  color: var(--cor-branco);
+  margin: 3rem 0 0 0;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 30rem;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  .curso h3 {
+    max-width: 40rem;
+  }
+  .curso-box {
+    margin: 3rem 0;
+  }
+  .case {
+    margin: 1rem 0;
+  }
+  .case i {
+    font-size: 1.5rem;
+  }
+  .case p {
+    font-size: 1.2rem;
+    margin: 0 0 0 1rem;
+  }
+  .bonus {
+    max-width: 48rem;
+  }
+  .bonus h4 {
+    font-weight: 700;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  .bonus p {
+    text-align: center;
+  }
+  .curso a {
+    margin: 3rem 0 0 0;
+    max-width: 21rem;
+  }
+}
