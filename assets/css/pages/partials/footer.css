@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-preto);
+    padding: 2rem 0;
+  }
+  footer p {
+    color: var(--cor-branco);
+  }
+  

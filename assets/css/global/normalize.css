@@ -13,6 +13,9 @@ body {
 section {
   height: 100vh;
 }
+section:not(.visible) {
+  display: none;
+}
 
 /* Responsivo Global */
 @media screen and (max-width: 1000px) {

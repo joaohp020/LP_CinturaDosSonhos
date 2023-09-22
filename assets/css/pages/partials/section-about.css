@@ -40,10 +40,23 @@
   color: var(--cor-vermelho);
   font-weight: 600;
 }
-.about a {
+#instagram {
+  background-color: var(--cor-branco);
+  color: var(--cor-vermelho);
+  border: 2px solid var(--cor-vermelho);
+  margin: 2rem 0 0.5rem 0;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 30rem;
+}
+#comecar {
   background-color: var(--cor-vermelho);
   color: var(--cor-branco);
-  margin: 4rem 0 5rem 0;
+  margin: 0.5rem 0 5rem 0;
   text-decoration: none;
   text-align: center;
   font-weight: 600;
@@ -56,29 +69,33 @@
 /* Responsivo */
 @media screen and (max-width: 1000px) {
   .about {
-    height: 120vh;
+    height: auto;
   }
   .about h2 {
     font-size: 1.5rem;
+    margin: 5rem 0 0 0;
   }
   .content-about {
-    flex-direction: row;
-    max-width: 22rem;
-    margin: 3rem 0 0 0;
+    flex-direction: column;
+    margin: 2rem 0 0 0;
   }
   .content-about img {
-    display: none;
+    max-width: 21rem;
   }
   .about-description {
-    margin: 0 0 0 0;
+    margin: 4rem 0 0 0;
     text-align: justify;
   }
   .about-description p {
     opacity: 0.8;
   }
-  .about a {
-    margin: 4rem 0 2rem 0;
+  #comecar {
+    margin: 1rem 0 2rem 0;
     padding: 15px;
+    max-width: 22rem;
+  }
+  #instagram {
+    margin: 0.5rem 0 1rem 0;
     max-width: 22rem;
   }
 }

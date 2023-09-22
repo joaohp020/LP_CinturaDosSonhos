@@ -22,6 +22,11 @@
   justify-content: center;
   margin: 0 1rem;
 }
+.box-feed-video h4 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+  color: var(--cor-azul-escuro);
+}
 .box-feed-video video {
   width: 100%;
   max-width: 20rem;
@@ -42,6 +47,10 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
+}
+#h1-img,
+#m2-img {
+  object-fit: cover;
 }
 
 /* Responsivo */

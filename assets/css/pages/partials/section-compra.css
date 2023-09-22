@@ -1,0 +1,243 @@
+.compra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-branco);
+  height: auto;
+}
+.content-compra {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 0 3rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.det-compra {
+  width: 100%;
+  max-width: 25rem;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.detalhe {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+.detalhe i {
+  font-size: 1.5rem;
+}
+.detalhe p {
+  margin: 3px 0 0 0;
+}
+.produto {
+  width: 100%;
+  max-width: 24rem;
+  height: 28rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid var(--cor-vermelho);
+  border-radius: 15px;
+}
+.titulo-produto {
+  color: var(--cor-preto);
+  font-weight: 600;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--cor-branco);
+  background-color: var(--cor-vermelho);
+  border-radius: 10px 10px 0 0;
+}
+.preco-produto {
+  color: var(--cor-preto);
+}
+.preco-produto p {
+  font-size: 1rem;
+  text-decoration: line-through var(--cor-vermelho);
+}
+.preco-produto h3 {
+  font-size: 1.5rem;
+  width: 100%;
+  letter-spacing: 1px;
+}
+.parcela {
+  display: flex;
+  flex-direction: row;
+}
+.x,
+.n,
+.c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+}
+.n h3 {
+  font-size: 4rem;
+}
+.produto a {
+  background-color: var(--cor-vermelho);
+  color: var(--cor-branco);
+  margin: 0 0 1rem 0;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 20rem;
+}
+.garantia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.garantia img {
+  width: 100%;
+  max-width: 15rem;
+}
+.garantia-desc {
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 0 0 5rem;
+}
+.garantia-desc p {
+  opacity: 0.8;
+}
+.suporte {
+  width: 100%;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 5rem 0;
+}
+.suporte p {
+  color: var(--cor-preto);
+  /* opacity: 0.8; */
+}
+.suporte a {
+  display: flex;
+  width: 100%;
+  max-width: 28rem;
+  height: 3.5rem;
+  background: var(--cor-verde);
+  border-radius: 10px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--cor-branco);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.suporte a:hover {
+  transition: 0.3s ease;
+  background-color: var(--cor-verde-escuro);
+  box-shadow: 5px 5px 15px 1px var(--cor-preto);
+}
+.suporte a i {
+  font-size: 1.5rem;
+  margin: 0 0 0 1rem;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  .content-compra {
+    flex-direction: column;
+  }
+  .det-compra {
+    max-width: 22rem;
+    padding: 10px 15px;
+  }
+  .detalhe {
+    flex-direction: row;
+    margin: 1rem 0;
+  }
+  .detalhe i {
+    font-size: 1.5rem;
+  }
+  .detalhe p {
+    margin: 3px 0 0 0;
+  }
+  .produto {
+    max-width: 22rem;
+    height: 28rem;
+    border: 3px solid var(--cor-vermelho);
+  }
+  .titulo-produto {
+    height: 5rem;
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+  }
+  .titulo-produto h2 {
+    font-size: 1.8rem;
+  }
+  .preco-produto {
+    color: var(--cor-preto);
+  }
+  .preco-produto p {
+    font-size: 1rem;
+  }
+  .preco-produto h3 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .parcela {
+    flex-direction: row;
+  }
+  .x,
+  .n,
+  .c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .n h3 {
+    font-size: 4rem;
+  }
+  .produto a {
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branco);
+    margin: 0 0 1rem 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 20rem;
+  }
+  .garantia {
+    flex-direction: column;
+    margin: 1rem 0 3rem 0;
+  }
+  .garantia img {
+    max-width: 15rem;
+  }
+  .garantia-desc {
+    max-width: 30rem;
+    margin: 0;
+  }
+  .suporte {
+    max-width: 18rem;
+    flex-direction: column;
+    margin: 0 0 3rem 0;
+  }
+  .suporte a {
+    max-width: 18rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+}
